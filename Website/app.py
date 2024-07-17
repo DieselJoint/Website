@@ -1,12 +1,12 @@
 from PIL import Image
 import requests
 import streamlit as st
-
+#Removed lottie import for streamlit as it was not returning the actual json file for the render
 
 st.set_page_config(page_title="Nick's Webpage", layout="wide")
 
 
-
+#also removed the function for calling lottie json url
 
 
 #local_css
