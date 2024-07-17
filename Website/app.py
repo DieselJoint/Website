@@ -1,16 +1,12 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+
 
 st.set_page_config(page_title="Nick's Webpage", layout="wide")
 
 
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+
 
 
 #local_css
@@ -21,7 +17,7 @@ def local_css(file_name):
 
 local_css("Website/style/style.css")
 # -- Asset load
-lottie_coding = load_lottieurl("https://lottie.host/ad2ea0dc-b212-4306-a5fe-a3384eccff56/93LYceOuWQ.json")
+
 img_calc_form = Image.open("Website/images/Calculator.png")
 img_dis_form = Image.open("Website/Images/Discord.png")
 # -- Header --
@@ -44,7 +40,7 @@ with st.container():
             for software development""")
 
     with right_column:
-        st_lottie(lottie_coding, height=300, key="Programming")
+        st.empty()
 
 # -- Projects --
 with st.container():
