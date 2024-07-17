@@ -19,7 +19,7 @@ local_css("Website/style/style.css")
 # -- Asset load
 
 img_calc_form = Image.open("Website/images/Calculator.png")
-img_dis_form = Image.open("Website/Images/Discord.png")
+img_dis_form = Image.open("Website/images/Discord.png")
 # -- Header --
 with st.container():
     st.subheader("Hi, my name is Nick")
