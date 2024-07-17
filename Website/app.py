@@ -19,11 +19,11 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("style/style.css")
+local_css("Website/style/style.css")
 # -- Asset load
 lottie_coding = load_lottieurl("https://lottie.host/ad2ea0dc-b212-4306-a5fe-a3384eccff56/93LYceOuWQ.json")
-img_calc_form = Image.open("images/Calculator.png")
-img_dis_form = Image.open("Images/Discord.png")
+img_calc_form = Image.open("Website/images/Calculator.png")
+img_dis_form = Image.open("Website/Images/Discord.png")
 # -- Header --
 with st.container():
     st.subheader("Hi, my name is Nick")
