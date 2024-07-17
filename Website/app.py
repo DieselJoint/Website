@@ -40,7 +40,7 @@ with st.container():
             for software development""")
 
     with right_column:
-        st.empty()
+            st.markdown("![Alt Text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3J2b3ZnYXBnbnVud2t6NTNsc2MxNWpsdG41cWVxcWxvcTc1NDl0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coxQHKASG60HrHtvkt/giphy.webp)")
 
 # -- Projects --
 with st.container():
